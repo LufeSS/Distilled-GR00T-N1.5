@@ -1,0 +1,52 @@
+# Python cache and artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing / coverage / tools
+.pytest_cache/
+.mypy_cache/
+.tox/
+.coverage*
+htmlcov/
+.ruff_cache/
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.python-version
+
+# Project data/output (large/untracked)
+data/
+out/
+
+# Hugging Face caches (if present)
+hf_cache/
+huggingface/
+
